@@ -4,7 +4,7 @@
  * @see http://www.yiiframework.com/doc-2.0/yii-widgets-linksorter.html
  */
 
-namespace rsr\yii2;
+namespace Kubik\yii2;
 
 use Yii;
 use yii\base\InvalidConfigException;
