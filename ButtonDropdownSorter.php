@@ -53,14 +53,14 @@ class ButtonDropdownSorter extends Widget
      */
     public function run()
     {
-        echo $this->renderSortButtonDropdown();
+        echo $this->renderSortDropdown();
     }
 
     /**
      * Renders the sort Dropdown
      * @return string the rendering result
      */
-    protected function renderSortButtonDropdown()
+    protected function renderSortDropdown()
     {
         $attributes = empty($this->attributes) ? array_keys($this->attributes) : $this->attributes;
         $list=[];
